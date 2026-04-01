@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- MOBILE RESPONSIVE IMPORTANT -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ANNAYA 🎂</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background Music -->
+<audio id="music" loop>
+    <source src="https://www2.cs.uic.edu/~i101/SoundFiles/HappyBirthday.mid">
+</audio>
+
+<!-- Welcome Screen -->
+<section id="welcome">
+    <div class="card">
+        <h1>🎉 Happy Birthday ANNAYA🎉</h1>
+        <p>A small surprise made with love ❤️</p>
+        <button onclick="startSurprise()">Open Surprise 🎁</button>
+    </div>
+</section>
+
+<!-- Main Website -->
+<section id="main" class="hidden">
+
+    <h2 id="typing"></h2>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <img src="C:\birthday\brosis1.jpg">
+        <img src="C:\birthday\brosis2.jpg">
+        <img src="C:\birthday\brosis3.jpg">
+        <img src="C:\birthday\brosis4.jpg">
+    </div>
+
+    <!-- Gift Box -->
+    <div class="gift" onclick="openGift()">🎁</div>
+
+    <p id="giftMessage" class="hidden message">
+        You are my protector, my guide and my best friend forever.
+        Happy Birthday My Supporter❤️🎂
+    </p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
